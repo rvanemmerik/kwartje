@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Reset Margins & Padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+
+header {
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#headtext {
+	color: white;
+	text-shadow: 0px 3px 6px black;
+	margin-right: 20%;
+}
+
+#headtext h1 {
+	font-weight: 300;
+	font-size: 70px;
+}
+
+#headtext h3 {
+	font-style: italic;
+	text-align: center;
+}
+
+/* Smaken & Cards */
+
+#nieuw {
+	background-color: grey;
+	height: 480px;
+	text-align: center;
+	padding: 10px 0;
+	background-image: url("../images/bierplak.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #2c2c2c;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.bcard {
+	Height: 407px;
+	width: 230px;
+	border: 1px black solid;
+	text-align: center;
+	background-color: #443243;
+	margin-top: 10px;
+	color: #E7E7E7;
+}
+
+.bcard:nth-of-type(2), .bcard:nth-of-type(4) {
+	background-color: #26263C;
+}
+
+.bcard h4 {
+	font-size: 18px;
+}
+
+.btype {
+	color: #A8A8A8;
+}
+
+.bcard img {
+	width: 230px;
+	height: auto;
+}
+
+.knop {
+	height: 28px;
+	width: 130px;
+	border: 1px grey solid;
+	border-radius: 10px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #494949;
+}
+
+.knop:hover {
+	transition: 0.3s;
+	box-shadow: 0 0px 5px rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+}
+
+.bcard .knop {
+	margin: 3px auto;
+}
+
+.knop .fas{
+	margin-right: 5px;
+}
+
+/* Reviews */
+
+#reviews {
+	height: 300px;
+	background-image: url("../images/biertjes.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#reviews h2 {
+	padding-top: 15px;
+	text-align: center;
+	color: #FAFAFA;
+	text-shadow: 3px 3px 6px black;
+}
+
+.rcard {
+	display: inline-block;
+	width: 600px;
+	height: 200px;
+	background-color: #FAFAFA;
+	margin-top: 10px;
+	color: #2c2c2c;
+}
+
+.ruser {
+	box-sizing: border-box;
+	border-right: 1px solid rgb(161, 161, 161);
+	height: 100%;
+	width: 150px;
+	background-color: #DDDDDD;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 20px;
+	float: left;
+}
+
+.ruser h4 {
+	margin-top: 5px;
+}
+
+.review {
+	display: inline-block;
+	width: 435px;
+	float: right;
+	padding-top: 15px;
+}
+
+.review h4 {
+	margin: 10px 0;
+}
+
+/* Over Ons */
+
+#over {
+	box-sizing: border-box;
+	height: 370px;
+	display: flex;
+	padding: 20px 40px;
+	background-image: url("../images/overunsplash.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#over img {
+	display: inline-block;
+	height: 330px;
+	width: auto;
+}
+
+#overons {
+	width: 650px;
+	margin-left: 150px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	color: #2c2c2c;
+}
+
+/* Nieuwsbrief */
+
+#nieuwsb {
+	height: 200px;
+	color: #FAFAFA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-shadow: 3px 3px 6px black;
+	background-image: url("../images/tap_unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#nieuwsb p {
+	color: #dbdbdb;
+}
+
+#nemailframe {
+	box-sizing: border-box;
+	border: 1px black solid;
+	background-color: #E0E0E0;
+	width: 250px;
+	height: 32px;
+	border-radius: 10px;
+	padding-left: 8px;
+}
+
+#nemailframe .fas{
+	color: #2c2c2c;
+	margin-top: 7px;
+	text-shadow:none;
+}
+
+#nemail {
+	border: none;
+	border-radius: 10px;
+	height: 100%;
+	float: right;
+	width: 90%;
+	font-size: 16px;
+	text-align: center;
+}

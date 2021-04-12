@@ -1,0 +1,503 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header */
+
+header {
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 3px 6px black;
+	box-sizing: border-box;
+	padding-top: 115px;
+}
+
+header h3 {
+	margin-top: 20px;
+	font-style: italic;
+}
+
+#overonshead {
+	background-image: url("../images/team2.jpg");
+}
+
+#newshead {
+	background-image: url(../images/header.jpg);
+}
+
+#shophead, #newshead {
+	height: 250px;
+	padding-top: 110px;
+}
+
+#contacthead {
+	padding-top: 90px;
+	height: 215px;
+}
+
+#shophead h1 {
+	display: inline-block;
+}
+
+#winkelmandje {
+	display: inline-block;
+	font-size: 30px;
+	position: absolute;
+	margin: 40px 0 0 29%;
+}
+
+#winkelmandje a {
+	color: white;
+}
+
+#winkelmandje a:hover {
+	transition: 0.3s;
+	text-shadow: 0 0px 5px rgba(255, 255, 255, 0.322);
+}
+
+/* Beer Cards */
+.bcard {
+	Height: 407px;
+	width: 230px;
+	border: 1px black solid;
+	text-align: center;
+	background-color: #443243;
+	margin: 25px 30px;
+	color: #E7E7E7;
+}
+
+.bcard h4 {
+	font-size: 18px;
+}
+
+.btype {
+	color: #A8A8A8;
+}
+
+.bcard img {
+	width: 230px;
+	height: auto;
+}
+
+.knop {
+	height: 28px;
+	width: 130px;
+	border: 1px grey solid;
+	border-radius: 10px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #494949;
+}
+
+.knop:hover {
+	transition: 0.3s;
+	box-shadow: 0 0px 5px rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+}
+
+#flexshop .knop {
+	width: 210px;
+}
+
+.bcard .knop {
+	margin: 3px auto;
+}
+
+.knop .fas{
+	margin-right: 5px;
+}
+
+/* Bcard Colors */
+
+.bcard:nth-of-type(2) {
+	background-color: #425382;
+}
+
+.bcard:nth-of-type(3) {
+	background-color: #754472;
+}
+
+.bcard:nth-of-type(4) {
+	background-color: #965500;
+}
+
+.bcard:nth-of-type(5) {
+	background-color: #0D4A17;
+}
+
+.bcard:nth-of-type(6) {
+	background-color: #58200C;
+}
+
+.bcard:nth-of-type(7) {
+	background-color: #425382;
+}
+
+/* Page */
+
+#over {
+	background-image: url("../images/overunsplash.jpg");
+}
+
+#shop {
+	background-image: url("../images/shopbackground.jpg");
+}
+
+#contact {
+	background-image: url("../images/contact.jpg");
+}
+
+#news main {
+	background-image: url("../images/newsbackground.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+section {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 50px 0;
+}
+
+section img {
+	display: inline-block;
+	width: 550px;
+	height: auto;
+}
+
+section div {
+	display: inline-block;
+	width: 550px;
+}
+
+main {
+	padding-bottom: 30px;
+}
+
+#flexshop {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: auto;
+}
+
+/* Contact Form */
+
+#cform {
+	width: 1000px;
+	height: 379px;
+	background-color: #E8E8E8;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#cform label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+	color: #252525;
+}
+
+#cform input, select {
+	margin-bottom: 15%;
+	border: none;
+	border-bottom: black 1px solid;
+	width: 96%;
+	font-family: poppins;
+	font-size: 16px;
+	background-color: transparent;
+	outline: none;
+}
+
+#gegevens {
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid#3F3F3F;
+}
+
+#berichtarea {
+	margin-right: 10px;
+	width: 47%;
+	float: right;
+}
+
+#berichtarea .knop {
+	margin: 17px auto;
+}
+
+textarea {
+	width: 100%;
+	height: 290px;
+	font-family: poppins;
+	font-size: 16px;
+	border: none;
+	resize: none;
+	background-color: transparent;
+	outline: none;
+}
+
+#verzonden {
+	width: 1000px;
+	height: 190px;
+	background-color: #E8E8E8;
+	margin: 0 auto 189px auto;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+}
+
+#verzonden p {
+	padding: 15px 0;
+}
+
+#verzonden .knop {
+	margin: 15px auto;
+}
+
+/* Beer Popup */
+
+.popblur {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.774);
+	backdrop-filter: blur(7px);
+}
+
+#bf_popup:target {
+	display: block;
+}
+
+.window {
+	box-sizing: border-box;
+	background-color: #FAFAFA;
+	display: flex;
+	width: 900px;
+	height: 500px;
+	margin: 10% auto;
+	padding: 10px;
+}
+
+.window img {
+	height: 100%;
+	width: auto;
+	margin-right: 2%;
+}
+
+.window ul {
+	display: flex;
+	height: 90px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-left: 18px;
+}
+
+.window li {
+	float: left;
+}
+
+.bierdesc {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.window .bestelknop {
+	position: absolute;
+	top: 645px;
+	right: 31%;
+	width: 220px;
+}
+
+.window .close {
+	position: absolute;
+	color: #FFFFFF;
+	background-color: #434343;
+	display: block;
+	border-radius: 100%;
+	top: 130px;
+	right: 290px;
+}
+
+.window .close:hover {
+	transition: 0.3s;
+	box-shadow: 0 0px 5px rgb(255, 255, 255);
+	background-color: rgb(53, 53, 53);
+}
+
+/* Winkelmandje */
+
+#ww_popup:target {
+	display: flex;
+}
+
+#mandje {
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.product {
+	display: flex;
+	align-items: center;
+}
+
+.product img {
+	width: 100px;
+	height: auto;
+}
+
+.producttitle {
+	display: inline-block;
+	width: 300px;
+}
+
+.item p {
+	margin-left: 300px;
+}
+
+.couponarea {
+	display: inline-block;
+	margin-top: 70px;
+	align-self: flex-start;
+}
+
+.couponarea label {
+	display: block;
+}
+
+#couponknop {
+	display: inline-block;
+	width: 120px;
+}
+
+.prijs {
+	display: inline-block;
+	align-self: flex-end;
+	width: 350px;
+	position: relative;
+	bottom: 60px;
+}
+
+.geldtext {
+	float: left;
+}
+
+.geld {
+	float: right;
+}
+
+#klaar_popup:target {
+	display: flex;
+}
+
+#besteld {
+	height: 300px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+#mandje .bestelknop { 
+	right: 27%;
+}
+
+/* Nieuwscards */
+
+.newscard {
+	background-color: #363636;
+	color: #F7F7F7;
+	width: 320px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 50px;
+	text-align: center;
+}
+
+.newscard img {
+	width: 100%;
+	height: auto; 
+}
+
+#flexnews {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.newscard p {
+	margin: 19px 0;
+}
+
+/* Artikel */
+
+#back {
+	float: left;
+	position: absolute;
+	font-size: 50px;
+	top: 127px;
+	left: 55px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#back:hover {
+	text-shadow: 0 0px 5px rgb(255, 255, 255);
+	transition: 0.3s;
+}
+
+#artikel {
+	padding: 50px;
+	display: flex;
+}
+
+#artikel p {
+	margin: 20px 0;
+}
+
+#artikel img {
+	height: 250px;
+	width: auto;
+	margin: 0 20px 0 70px;
+}

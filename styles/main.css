@@ -1,0 +1,12 @@
+/* import all stylesheets */
+@import 'layout.css';
+@import 'navigation.css';
+@import 'main.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Reset Margins & Padding */
+* {
+    margin: 0;
+    padding: 0;
+}
